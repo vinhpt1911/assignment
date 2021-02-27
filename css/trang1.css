@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-center{
+    width: 85%;
+    margin: 0 auto;
+}
+.hmenu{
+    list-style: none;
+    border-bottom: 2px solid #cccccc;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    display: block;
+    color: #911212;
+    padding: 10px;
+    text-shadow: 0 0 0px #666666;
+
+}
+.hmenu>li>a:hover{
+    color: #999999;
+    border-bottom: 2px solid #999999;
+}
+.hmenu>li:hover{
+    border-bottom: 1px solid royalblue;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 0;
+    list-style: none;
+    width: 180px;
+    background-color:white;
+
+}
+.smenu>li{
+    
+    padding: 5px;
+    z-index: 100px;
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(111, 8, 8);
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+}
+.smenu>li>a:hover{
+    columns: #333333;;
+    text-shadow: 0 0 1px #333333;
+    color: #333333;
+}
+.smenu>li:hover{
+    background-color: #dfd9d9;
+}
+.entry-title {
+    color: inherit;
+    margin-top: 50px;
+    font-size: 34px;
+    line-height: 50px;
+    margin-left: 100px;
+}
+h1{
+    font-family: 'Roboto Condensed';
+    clear: both;
+    font-weight: 400;
+    margin: 0 0 12px;
+    color: inherit;
+}
+h5{
+    margin-left: 100px;
+    
+    font-family: 'Roboto Condensed';
+    clear: both;
+    font-weight: 400;
+    margin: 0 0 12px;
+    
+}
+.entry-title-a {
+    color: #666666;
+    margin-top: -10px;
+    font-size: 13px;
+    line-height: 50px;
+    margin-left: 100px;
+}
+strong{
+    font-family: 'Roboto Condensed';
+        font-weight: bold;
+        border: 0;
+   
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: bold;
+    margin: 10px;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    }
+    p {
+        text-align: justify;
+        width: 100%;
+        margin-bottom: 24px;
+        border: 0;
+    font-family:'Roboto Condensed';
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+    .boxp{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 85%; 
+        float: left;
+        min-height: 300px;
+        background-color: white;
+        border-bottom: 1px solid #666666;
+        color: #666666;
+    }
+    .required {
+        color: red;
+    }
+    .comment-form p:not(.form-submit) {
+        margin-bottom: 14px;
+    }
+    .comment-notes{
+        font-size: 1rem;
+        color: #757575;
+        margin-top: 70px;
+        margin-left: 100px;
+        width: 85%; 
+        float: left;
+        min-height: 30px;
+        background-color:white;
+        
+        color: #666666;
+    }
+    .traloi{
+        position: absolute;
+        margin-top:350px;
+        margin-left: 90px;
+        background-color: white;
+        font-family: 'Roboto Condensed';
+        color: #333333;
+        font-size: 20px;
+        line-height: 32px;
+        padding: 0 8px;
+        border-radius:3px 3px;
+    }
+    .comment-form-email{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 100%; 
+        float: left;
+        min-height: 300px;
+        background-color: white;
+        border-bottom: 1px solid #666666;
+        color: #666666;
+    }
+    .comment-form-comment{
+        margin-left: 100px;
+    }
+    .comment-form-url{
+        margin-left: 100px;
+    }
+    .binhluan{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 85%; 
+        float: left;
+        min-height: 250px;
+        background-color:rgb(255, 255, 255);
+        color: #666666;
+    }
+    .ten{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 41%; 
+        float: left;
+        min-height: 30px;
+        background-color:rgb(255, 255, 255);
+        color: #666666;
+    }
+    .email{
+        margin-top: 20px;
+        margin-left: 48px;
+        width: 41%; 
+        float: left;
+        min-height: 30px;
+        background-color:rgb(255, 255, 255);
+        color: #666666;
+    }
+    .trangweb{
+            margin-top: 20px;
+            margin-left: 100px;
+            width: 85%; 
+            float: left;
+            min-height: 30px;
+            background-color:rgb(255, 255, 255);
+            color: #666666;
+    }
+    .phanhoi{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 41%; 
+        float: left;
+        min-height: 30px;
+        background-color:rgb(255, 255, 255);
+        color: #666666;
+    }
+    footer{
+        width: 100%;
+        border-top: 1px solid gray;
+        background-color: rgb(241, 243, 243);
+        clear: both;
+    }
+    footer>span{
+        line-height: 20px;
+        margin-left: 100px;
+        color: #666666;
+        font-family: 'Roboto Condensed';
+        font-size: 14px;
+    
+    }
+    input{
+        color: inherit;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 6px 8px;
+        border: 1px solid rgba(0,0,0,.12);
+        background: #fff;
+        margin-bottom: 6px;
+        font-family: 'Roboto Condensed';
+        border-radius: 2px;
+    }

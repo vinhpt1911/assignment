@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-center{
+    width: 85%;
+    margin: 0 auto;
+}
+.hmenu{
+    list-style: none;
+    border-bottom: 2px solid #cccccc;
+}
+.hmenu>li{
+    display: inline-block;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    display: block;
+    color: #911212;
+    padding: 10px;
+    text-shadow: 0 0 0px #666666;
+
+}
+.hmenu>li>a:hover{
+    color: #999999;
+    border-bottom: 2px solid #999999;
+}
+.hmenu>li:hover{
+    border-bottom: 1px solid royalblue;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 0;
+    list-style: none;
+    width: 180px;
+    background-color:white;
+
+}
+.smenu>li{
+    
+    padding: 5px;
+    z-index: 100px;
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(111, 8, 8);
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+}
+.smenu>li>a:hover{
+    columns: #333333;;
+    text-shadow: 0 0 1px #333333;
+    color: #333333;
+}
+.smenu>li:hover{
+    background-color: #dfd9d9;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    color: inherit;
+}
+.kc_google_maps {
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+    width: 85%;
+    min-height: 150px;
+}
+.kc-elm {
+    float: left;
+}
+.gopy{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 85%; 
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    float: left;
+    min-height: 30px;
+    background-color:rgb(255, 255, 255);
+    color: #333333;
+}
+input{
+    color: inherit;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 6px 8px;
+    border: 1px solid rgba(0,0,0,.12);
+    background: #fff;
+    margin-bottom: 6px;
+    font-family: 'Roboto Condensed';
+    border-radius: 2px;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 85%; 
+    float: left;
+    min-height: 450px;
+    background-color:rgb(255, 255, 255);
+}
+footer{
+    width: 100%;
+    border-top: 1px solid gray;
+    background-color: rgb(241, 243, 243);
+    clear: both;
+}
+footer>span{
+    line-height: 20px;
+    margin-left: 100px;
+    color: #666666;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+
+}
